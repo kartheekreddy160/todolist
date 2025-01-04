@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+header{
+    height: 70px;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(56, 56, 151);
+}
+section{
+    height: 70px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #eadddd;
+}
+section form input {
+    padding: 0.3rem;
+    width: 20rem;
+}
+
+section form button {
+    padding: 0.3rem;
+    background-color: green;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+section form button:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+ul{
+    width: 100vw;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 30rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: space-around;
+    font-size: 27px;
+}
+ul li button{
+    padding: 0.25rem;
+    background-color: red;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+ul li button:hover{
+    background-color: green;
+    transform: scale(1.1);
+
+}
